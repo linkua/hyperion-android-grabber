@@ -19,3 +19,9 @@ https://play.google.com/apps/testing/com.abrenoch.hyperiongrabber
 **Playstore link (currently only visible to testers):**
 
 https://play.google.com/store/apps/details?id=com.abrenoch.hyperiongrabber
+
+---
+
+service: androidtv.adb_command
+data:
+  command: "am start com.abrenoch.hyperiongrabber/com.abrenoch.hyperiongrabber.common.BootActivity"
